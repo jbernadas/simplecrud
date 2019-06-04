@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
 mongoose.connect(
+  // The below line is from https://cloud.mongodb.com, retrieve user credentials from there (cloud based database API).
+  // "mongodb+srv://<dbusername>:<dbuserpassword>@cluster0-q7fqn.gcp.mongodb.net/test?retryWrites=true&w=majority"
   "mongodb+srv://jb0:H9VKk9AzH9OgIxQt8YbPgThvNnPDHWR1Pmn@cluster0-q7fqn.gcp.mongodb.net/test?retryWrites=true&w=majority",
     { 
       useNewUrlParser: true
